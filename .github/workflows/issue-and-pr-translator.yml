@@ -1,0 +1,17 @@
+# This workflow translates comments of issues and pull requests into English
+name: issue-translator
+
+on: 
+  issues:
+    types: [opened]
+  pull_request:
+    types: [opened]
+  # Valid for issues and pull requests
+  issue_comment: 
+    types: [created]  
+  
+jobs:
+  build: 
+    runs-on: ubuntu-latest
+    steps:
+      - uses: tomsun28/issues-translate-action@v2.3
