@@ -16,4 +16,4 @@ jobs:
             - name: 'Sets label 09 Pending Peer Review'
               uses: actions-ecosystem/action-add-labels@v1
               with:
-                labels: bug
+                labels: 09 Pending Peer Review
