@@ -1,6 +1,7 @@
 bin/
-lib/
 out/
+test/
+project/
 posterita/posterita/dist/
 posterita/posterita/web/WEB-INF/classes/
 install/lib/
@@ -29,6 +30,7 @@ webCM/deploy/
 zkwebui/dist/
 zkwebui/WEB-INF/classes/
 build/
+target/
 extend/test.properties
 .settings/org.eclipse.ltk.core.refactoring.prefs
 .settings/org.zkoss.eclipse.preferences.prefs
@@ -37,3 +39,10 @@ migration/postgresql.properties
 .DS_Store
 .DS_Store?
 ._*
+install/patch/
+/test.properties
+org.adempiere.pos/bin/
+org.adempiere.pos/project/target
+org.adempiere.pos/project/project
+org.adempiere.pos/target
+org.adempiere.pos/dist
